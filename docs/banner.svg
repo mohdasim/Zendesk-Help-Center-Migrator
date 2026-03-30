@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="700" height="200" rx="12" fill="url(#bg)"/>
+  <rect x="0" y="188" width="700" height="12" rx="0 0 12 12" fill="url(#accent)"/>
+
+  <!-- Icon -->
+  <g transform="translate(50, 55)">
+    <!-- Database/migration icon -->
+    <ellipse cx="40" cy="15" rx="30" ry="12" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+    <path d="M10 15 v55 c0 6.6 13.4 12 30 12 s30-5.4 30-12 v-55" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+    <ellipse cx="40" cy="42" rx="30" ry="12" fill="none" stroke="#7c3aed" stroke-width="2" opacity="0.5"/>
+    <ellipse cx="40" cy="70" rx="30" ry="12" fill="none" stroke="#7c3aed" stroke-width="2" opacity="0.5"/>
+    <!-- Arrow -->
+    <line x1="85" y1="42" x2="115" y2="42" stroke="#a78bfa" stroke-width="2.5"/>
+    <polygon points="115,35 130,42 115,49" fill="#a78bfa"/>
+  </g>
+
+  <!-- Text -->
+  <text x="235" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Zendesk Help Center</text>
+  <text x="235" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="url(#accent)">Migrator</text>
+  <text x="235" y="152" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#94a3b8">Production → Sandbox  •  Multi-Brand  •  Resumable  •  CSV Export</text>
+</svg>
