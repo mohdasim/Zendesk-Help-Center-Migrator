@@ -220,8 +220,8 @@ Production Zendesk                          Sandbox Zendesk
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/zendesk-helpcenter-migrator.git
-cd zendesk-helpcenter-migrator
+git clone https://github.com/mohdasim/Zendesk-Help-Center-Migrator.git
+cd Zendesk-Help-Center-Migrator
 
 # Install dependencies
 pip install -r requirements.txt
@@ -514,7 +514,7 @@ grep "FAIL\|ERROR\|API ERROR" migration.log
 ## Project Structure
 
 ```
-zendesk-helpcenter-migrator/
+Zendesk-Help-Center-Migrator/
 ├── README.md                      # This file
 ├── LICENSE                        # MIT License
 ├── requirements.txt               # Python dependencies
